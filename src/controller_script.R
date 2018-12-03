@@ -1,7 +1,7 @@
 #Controller script
 
-source('readData.R')
-source('wrangle.R')
-source('plotData.R')
-source('calc2ship.R')
-source('runRegression.R')
+source('src/readData.R')
+source('src/wrangle.R')
+source('src/plotData.R')
+source('src/calc2ship.R')
+source('src/runRegression.R')
