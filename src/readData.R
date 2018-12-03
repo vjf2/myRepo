@@ -1,10 +1,6 @@
 options(stringsAsFactors = FALSE)
 
-kahuna<-read.csv("data/2018-11-27_Gm182-Start-CEE-Locations-Kahuna.csv")
-
-CEE<-read.csv("data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv")
-
-locations<-read.csv("data/2018-11-27_Gm182-UserPoints-Start-CEE-Locations-Kahuna.csv")
+.libPaths("C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
 
 library(dplyr, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
 library(readr, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
