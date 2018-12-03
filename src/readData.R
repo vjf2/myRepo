@@ -6,11 +6,11 @@ CEE<-read.csv("data/2018-11-26_2017-Cape-Hatteras-BRS-kahuna-CEE.csv")
 
 locations<-read.csv("data/2018-11-27_Gm182-UserPoints-Start-CEE-Locations-Kahuna.csv")
 
-library(dplyr)
-library(readr)
-library(fields)
-library(lme4)
-library(ggplot2)
+library(dplyr, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
+library(readr, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
+library(fields, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
+library(lme4, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
+library(ggplot2, lib.loc="C:/Users/froug/OneDrive/Documents/R/win-library/3.5")
 
 # Read in data
 # positional data about the RV Kahuna
